@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tildamt/fullstack-osa3/issues"
   },
-  "homepage": "https://github.com/tildamt/fullstack-osa3#readme"
+  "homepage": "https://github.com/tildamt/fullstack-osa3#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
