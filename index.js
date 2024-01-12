@@ -8,8 +8,8 @@ app.use(express.json())
 
 const PORT = 3002
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+  console.log(`Server is running on port ${PORT}`)
+})
 
 let persons = [
       {
@@ -82,7 +82,7 @@ app.post('/api/persons', (req, res) => {
     })
   }
 
-  const existingPerson = persons.filter(person => person.name.toLowerCase() === body.name.toLowerCase());
+  const existingPerson = persons.find(person => person.name.toLowerCase() === body.name.toLowerCase())
 
   if (existingPerson) {
     return res.status(400).json({
