@@ -1,0 +1,19 @@
+{
+  "name": "phonebookbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tildamt/fullstack-osa3.git"
+  },
+  "author": "Tilda Toivanen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tildamt/fullstack-osa3/issues"
+  },
+  "homepage": "https://github.com/tildamt/fullstack-osa3#readme"
+}
